@@ -57,3 +57,22 @@ console.log(values);
 
 
 
+let shoppingList = [
+    ["potatoes", "onions", "carrots"],
+    ["pasta", "rice", "lentils"],
+    ["beans", "tinned tomatoes", "tinned sweetcorn"]
+];
+// this is a multi array, arrays in an array
+console.log(shoppingList)
+let objectArray = [
+    {cat: "veg", list: ["potatoes", "onions", "carrots"]}, 
+    {cat: "dog", list: ["wet food", "dry food", "poo bags"]}, 
+    {cat: "cleaning", list: ["sponges", "fairy liquid", "surface spray"]}
+];
+// objectss in an array
+console.log(objectArray);
+console.log(objectArray[0]);
+console.log(objectArray[0].list);
+console.log(objectArray[0].list[0]);
+
+
